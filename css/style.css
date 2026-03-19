@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+.navbar {
+    background: #007bff;
+    color: white;
+    padding: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.form-container {
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input, select {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.dashboard {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+}
