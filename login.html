@@ -12,7 +12,14 @@
     <h2>Login</h2>
     <input type="text" placeholder="Email">
     <input type="password" placeholder="Password">
-    <button>Login</button>
+    <button onclick="loginUser()">Login</button>
+
+<script>
+function loginUser() {
+    alert("Login Successful!");
+    window.location.href = "dashboard.html";
+}
+</script>
     <p>Don't have account? <a href="register.html">Register</a></p>
 </div>
 
